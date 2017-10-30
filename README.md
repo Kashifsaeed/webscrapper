@@ -46,3 +46,8 @@ Credits
 
 License
 -------
+
+How to use REST API
+--------------------
+Learn here REST API [Documentation](http://docs.webscrappingapi.apiary.io)
+
