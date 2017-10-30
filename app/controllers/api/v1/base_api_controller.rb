@@ -1,4 +1,4 @@
-class Api::V1::BaseController < ApplicationController
+class Api::V1::BaseApiController < ApplicationController
   skip_before_action :verify_authenticity_token
   before_action :parse_request
   before_action :check_url

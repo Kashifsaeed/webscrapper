@@ -2,11 +2,7 @@ Rails.application.routes.draw do
   
   namespace :api do
     namespace :v1 do
-      resources :pages do
-        collection do
-          get :list
-        end
-      end
+      resources :pages
     end
   end
 end
